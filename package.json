@@ -1,0 +1,12 @@
+{
+  "name": "peacock-karaoke",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/strokirus/karaoke.git",
+  "author": "Alexandre Dias <strokirus@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
