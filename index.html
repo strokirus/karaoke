@@ -9,14 +9,19 @@
                 width: 100%;
                 height: 100%;
             }
+
+            video::-webkit-media-text-track-display-backdrop {
+                background-color: rgba(0,0,0,0) !important;
+            }            
         ::cue {
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 0.1);
             color: #FFF;
             font-size: 72px;
         }
         ::cue(.green) { 
-            color: #6e55dc; 
+            color: #FFe000;
+            background-color: rgba(0, 0, 0, 0.1);
         }
         </style>
     </head>
